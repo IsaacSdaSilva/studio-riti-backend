@@ -195,7 +195,7 @@ app.put('/agenda/:id', (req, res) => {
     res.json({ message: 'Agendamento atualizado', entry: agenda[idx] });
 });
 
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, '0.0.0.0', () => {
     console.log('Servidor rodando na porta 3000');
