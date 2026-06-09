@@ -12,8 +12,11 @@ const corsOptions = {
     allowedHeaders: ['Content-Type', 'x-admin-token'],
 };
 app.use(cors(corsOptions));
-app.options('*', cors(corsOptions));
 app.use(express.json());
+
+app.get('/', (req, res) => {
+    res.json({ status: 'ok' });
+});
 
 // Handle invalid JSON bodies so the server doesn't crash
 app.use((err, req, res, next) => {
@@ -198,5 +201,5 @@ app.put('/agenda/:id', (req, res) => {
 const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, '0.0.0.0', () => {
-    console.log('Servidor rodando na porta 3000');
+    console.log(`Servidor rodando na porta ${PORT}`);
 });
