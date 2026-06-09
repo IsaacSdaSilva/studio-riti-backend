@@ -1,0 +1,83 @@
+[
+  {
+    "nome": "isabellehahdbs",
+    "servico": "Corte feminino",
+    "horario": "2026-12-15 10:00",
+    "telefone": "51980527242",
+    "createdAt": "2026-06-07T22:17:02.216Z",
+    "id": "d6da1003-991e-4184-9d60-a6538b2e9a70",
+    "obs": "",
+    "updatedAt": "2026-06-08T01:47:09.534Z"
+  },
+  {
+    "nome": "isabelle",
+    "telefone": "51980527242",
+    "servico": "Loira Perfeita",
+    "horario": "2026-06-16 21:25",
+    "obs": "",
+    "createdAt": "2026-06-07T22:25:32.130Z",
+    "id": "3e25c1e7-3930-4340-9df4-15a26bfc7243",
+    "updatedAt": "2026-06-08T01:36:28.654Z"
+  },
+  {
+    "nome": "Teste Autom�tico",
+    "servico": "Corte",
+    "horario": "2026-06-08 10:00",
+    "telefone": "(51) 91234-5678",
+    "createdAt": "2026-06-07T22:58:52.575Z",
+    "id": "e3ae5893-9bf9-4fc1-b89c-a1719b89ccb9"
+  },
+  {
+    "nome": "Teste Autom�tico 2",
+    "servico": "Escova",
+    "horario": "2026-06-09 14:00",
+    "telefone": "(51) 91234-5678",
+    "createdAt": "2026-06-07T23:00:48.217Z",
+    "id": "2f50243f-7f63-4db3-826b-0648f8d2ddb3"
+  },
+  {
+    "nome": "Teste Notificacao",
+    "servico": "Corte",
+    "horario": "2026-06-10 11:00",
+    "telefone": "(51) 91234-5678",
+    "createdAt": "2026-06-07T23:02:02.320Z",
+    "id": "8e3b97e6-aaf1-470c-b9e8-8e603007c9a9"
+  },
+  {
+    "nome": "Teste Debug",
+    "servico": "Make Social",
+    "horario": "2026-06-11 15:00",
+    "telefone": "(51) 91234-5678",
+    "createdAt": "2026-06-07T23:03:22.784Z",
+    "id": "ae49eeb2-1ab7-4db8-a5ab-d9a41d635f5b"
+  },
+  {
+    "nome": "isabelle",
+    "telefone": "51980527242",
+    "servico": "Loira Perfeita",
+    "horario": "2026-06-25 23:06",
+    "obs": "",
+    "createdAt": "2026-06-07T23:06:19.100Z",
+    "id": "996a315c-7f57-4e7d-b6e0-a289de1c6254"
+  },
+  {
+    "nome": "marluce",
+    "telefone": "51980527242",
+    "servico": "Corte",
+    "horario": "2026-06-10 22:53",
+    "obs": "",
+    "createdAt": "2026-06-08T00:53:09.366Z",
+    "id": "12386f6c-858d-43cf-93bb-c57a506888b5",
+    "updatedAt": "2026-06-08T00:55:08.333Z"
+  },
+  {
+    "nome": "hjasbjdb",
+    "telefone": "51980527242",
+    "servico": "Loira Perfeita",
+    "horario": "2026-06-09 00:25",
+    "obs": "",
+    "createdAt": "2026-06-08T01:25:26.653Z",
+    "id": "066797c1-67f6-41ce-b993-4656f1062f50",
+    "updatedAt": "2026-06-08T01:25:38.414Z"
+  }
+]
