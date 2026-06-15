@@ -200,6 +200,28 @@ app.put('/agenda/:id', (req, res) => {
 
 const PORT = process.env.PORT || 3000;
 
-app.listen(PORT, '0.0.0.0', () => {
+const server = app.listen(PORT, '0.0.0.0', () => {
     console.log(`Servidor rodando na porta ${PORT}`);
+});
+
+// Graceful shutdown handlers
+process.on('SIGTERM', () => {
+    console.log('SIGTERM recebido. Encerrando gracefully...');
+    server.close(() => {
+        console.log('Servidor encerrado com sucesso.');
+        process.exit(0);
+    });
+    // Force exit after 30 seconds
+    setTimeout(() => {
+        console.error('Timeout ao encerrar. Forçando saída...');
+        process.exit(1);
+    }, 30000);
+});
+
+process.on('SIGINT', () => {
+    console.log('SIGINT recebido. Encerrando gracefully...');
+    server.close(() => {
+        console.log('Servidor encerrado com sucesso.');
+        process.exit(0);
+    });
 });
